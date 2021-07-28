@@ -1,0 +1,8 @@
+name: "s3-downloader"
+version: "0.1.0"
+description: |-
+  Helm plugin to access helm charts hosted on S3.
+downloaders:
+- command: "getfile.sh"
+  protocols:
+    - "s3"
